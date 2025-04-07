@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+     font-family: 'TheJamsil3Regular';
+ 
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+ }
+
+ ul,li{
+    list-style: none;
+ }
+
+/* //////////////////////////////////////////// */
+
+
+section{
+    width: 100%;
+
+}
+
+section .cscenter_faq{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+section #faq_title_wrap{
+    
+    width: 130px;
+    float: left;
+    height: 100px;
+}
+
+section #faq_title_wrap h1{
+    font-size: 45px;
+}
+
+section #faq_title_wrap h3{
+    font-size: 20px;
+}
+
+/*/////////////////////////////////여기까지 FAQ제목//////////////////////////////////////////////*/
+
+section .faq_search_wrap{
+	background-color: rgba(126, 125, 203, 0.26);
+	width: 1100px;
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+section .faq_search{
+	width: 410px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+section .cscenter_faq .faq_search_wrap input[type="text"]{
+	width: 300px;
+	height: 50px;
+	border-radius: 20px;
+	text-indent: 20px;
+	
+}
+
+section .cscenter_faq .faq_search_wrap input[type="submit"]{
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	
+}
+
+
+section .faq_search_keyword{
+	margin-top: 30px;
+}
+
+section .faq_search_keyword h1{
+	width: 15%;
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+section .faq_search_keyword ul{
+  display: flex;
+  overflow: hidden;
+  width: 80%
+}
+
+.faq_search_keyword li {
+  flex: 1;
+ /* width: 100px;
+  animation: moveLeftRight 10s infinite alternate;*/
+  border-style: groove;
+  text-align: center;
+  height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*
+@keyframes moveLeftRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+*/
+
+section #faq_title{
+	width: 1100px;
+	height: 100px;
+	margin-top: 50px;
+	
+}
+
+section .faq_menu_list{
+	width: 970px;
+	/*height: 100px;*/
+	float: left;
+	/*line-height: 100px;*/
+	margin-top: 30px;
+	
+}
+
+section .faq_menu_list ul{
+	display: flex;
+  	overflow: hidden;
+  	width: 100%;
+}
+
+section .faq_menu_list ul li{
+	flex: 1;
+ /* width: 100px;
+  animation: moveLeftRight 10s infinite alternate;*/
+  	text-align: center;
+ 	height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 1.3em;
+	
+}
+
+/*///////////////////////////여기까지 faq 검색창//////////////////////*/
+
+.board_list .title{
+	width: 80%;
+	float: left;
+}
+
+.board_list .num{
+	width: 20%;
+	float: left;
+}
+
+.board_list .faq_item{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	border-bottom: 1px solid #e6e6e6;
+	
+}
+
+.board_list .con_wrap{
+	width: 100%;
+    background-color: gray;
+    height: 100px;
+}
+
+.board_list .faq_result{
+	height: 50px;
+	line-height: 50px;
+	font-size: 2em;;
+}
+
+
+
+
+    
+    

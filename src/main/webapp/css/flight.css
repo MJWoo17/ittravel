@@ -1,0 +1,492 @@
+/* 실 사용 css */
+*{
+     margin: 0;
+     padding: 0;
+  
+     font-family: 'TheJamsil3Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} 
+a {
+    text-decoration: none;
+    color: #333;
+ } 
+ 
+
+
+/* .mainflightdiv1{
+
+   width: 1900px;
+   height: 500px;
+    margin: 0px auto;
+  border: 1px solid black;
+    z-index: 5;
+} */
+
+.mainflightdiv2{
+    width: 1100px;
+    height: 300px;
+    position: relative;
+    margin: 80px auto;
+    /* border-style: solid;
+    border-width: 1px; */
+    z-index: 12;
+}
+
+.flightdiv1{
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    /* top: 455px; */
+    /* left: 960px; */
+    /* margin-left: -600px; */
+    z-index: 10;
+    padding: 0;
+    box-shadow: 5px 5px 30px 10px rgb(105 105 105 / 20%);
+    /* border-style: solid; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.searchfield{
+    position: static;
+    margin: 0;
+}
+
+.flightdiv2{
+    width: 1100px;
+    margin-bottom: 0;
+}
+
+.tabs{
+    border-bottom: none;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.tabs > li +li {
+    margin-left: 30px;
+}
+
+
+.tabs > li{
+    width: auto;
+    border: none !important;
+    display: inline-block;
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    float: none;
+    margin-left: 10px;
+}
+
+.selected > a{
+    font-weight: 400;
+    color: #111;
+    height: auto;
+    padding-top: 0;
+    font-size: 15px;
+    /* color: #aaa; */
+    line-height: 1;
+}
+
+.selected span{
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.panels{
+    padding-top: 10px;
+    overflow: visible;
+}
+
+.panels2{
+    display: block;
+}
+
+.row{
+    width: 1100px;
+    text-align: left;
+    position: relative;
+}
+
+.bowl{
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.select_area input[placeholder="출발지"]{
+    width: 650px;
+    margin: 20px 0 0 30px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.select_area input[placeholder="가는날"]{
+    width: 250px;
+    margin: 0 0 0 30px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.select_area input[placeholder="오는날"]{
+    width: 250px;
+    margin: 0 0 0 20px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.select_area2 {
+    margin: 0px 10px 0 30px;
+}
+
+
+.select_area2 input[placeholder="도착지"]{
+    width: 650px;
+    margin: 0px 0 50px 30px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+.select_area2 input[placeholder="인원 선택"]{
+    width: 250px;
+    margin: 0px 0 0 30px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.select_area2 input[value="항공권 검색"]{
+    width: 220px;
+    margin: 0px 0 0 73px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background: #1e9eed;
+    border-color: #1e9eed;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+    /* border: none;
+    border-radius: 3px;  */
+    /* padding: 0 20px; */
+    font-size: 15px;
+}
+
+.select1{
+    width: 434px;
+    margin: 20px 0 0 10px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.select2{
+    width: 430px;
+    margin: 20px 0 0 10px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+
+
+option {
+  padding: 4px;
+  font-size: 14px;
+  color: black;
+  background-color: #f2f6f9;
+}
+
+.date1{
+    width: 392px;
+    margin: 20px 0 0 10px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.date2{
+    width: 392px;
+    margin: 20px 0 0 10px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+.come1{
+    margin: 20px 10px 0 0px;
+}
+
+.come2{
+    margin: 20px 10px 0 30px;
+}
+
+.personwrap1{
+    width: 200px;
+    margin: 20px 0 30px 2px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.personwrap2{
+    width: 200px;
+    margin: 20px 0 30px 30px;
+    float: none;
+    height: 62px;
+    line-height: 62px;
+    background-color: #f2f6f9;
+    border: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+       .slider {
+            width: 1910px;
+            list-style:none;
+           
+          }
+          .slider:after {
+            content:'';
+            display:block;
+            clear:both;
+          }
+          .slider li {
+            position:absolute; 
+            left:0;
+            width:100%;
+            height:500px;
+            opacity:0;
+            
+          }
+          .slider li div {
+            width:100%;
+            height:500px;
+            background-size:cover;
+            position:relative;
+            margin: 0 auto;
+            top:-460px;
+          }
+          .slider li dl {
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            left:20px;
+          }
+          .slider li .right {
+            left:auto;
+            right:20px;
+            text-align:right;
+          }
+          .slider li dt {
+            color:#fff;
+            font-size:3rem;
+            text-shadow:1px 1px 10px #444;
+          }
+          .slider li dd {
+            color:#fff;
+            text-shadow:1px 1px 10px #444;
+          }
+
+
+.centerdiv1{
+    width: 1100px;
+    height: 100%;
+    position: static;
+    margin: 200px auto;
+    margin-bottom : 0px;
+    display: block;
+/*    border:1px solid black;*/
+}
+
+.wrapdiv1{
+    width: 1100px;
+    height: 140px;
+    margin: 0px auto;
+    /* background-color: #1e9eed;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+}
+
+body .wrap4{         
+    width: 1100px;
+    height: 400px;
+    margin: 50px auto;
+/*    border: 1px solid black;*/
+    z-index: 1;
+    justify-content: center;
+ 
+}
+
+.wrap4 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section .imgdiv{
+    width: 1100px;
+    height: 320px;
+    z-index: 3;
+    margin: 0 auto;
+/*    border: 1px solid black;*/
+   display: flex;
+   justify-content: center;
+}
+
+section .salediv1{
+/*    float: left;*/
+/*     width: 265px; */
+    height: 320px;
+    margin-right: auto;
+
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 3px 3px rgb(105 105 105 / 10%);
+}
+
+section .salediv1:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+
+section .salediv2{
+/*    float: right;*/
+/*     width: 265px; */
+    height: 320px;
+  margin-right: auto;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 3px 3px rgb(105 105 105 / 10%);
+}
+
+section .salediv3{
+/*    float: right;*/
+/*     width: 265px; */
+    height: 320px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 3px 3px rgb(105 105 105 / 10%);
+}
+
+
+section .salediv2:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+
+section .salediv3:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+
+
+.fontdiv2{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: cadetblue;
+}
+
+.fontdiv1{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+.fontdiv3{
+    font-size: 20px;
+    margin-left:20px;
+    margin-top: 20px;
+   
+} 
+
+
+.wrapdiv1_1{
+    width: 1100px;
+    height: 140px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    /* background-color: #1e9eed;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+}
+
+.floating {
+    position: fixed;
+    top: 200px;
+    left: 60%;
+    margin-left: 500px;
+    z-index: 1000;
+}
+
+.floating img{
+    border-radius: 7px;
+}
+
+
+/* ============================================= */

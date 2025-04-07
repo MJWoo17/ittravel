@@ -1,0 +1,528 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'TheJamsil3Regular';
+}
+
+/* ::-webkit-scrollbar { */
+/*  width: 10px; */
+/* } */
+
+
+@font-face {
+	font-family: 'TheJamsil3Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil1Thin';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil1Thin.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil2Light';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.fknexp ul li {
+	font-family: TheJamsil2Light;
+	font-size: 10px;
+}
+
+.fknexp ul li:first-child {
+	font-family: TheJamsil2Light;
+	font-size: 13px;
+}
+
+.hours ul li {
+	margin-left: 10px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.mainwrap {
+	height: 100%;
+}
+
+.leftsidebar {
+	position: absolute;
+	height: 100vh;
+	width: 330px;
+	background-color: #fff;
+	z-index: 2;
+	overflow: auto;
+	left: 0;
+	transition: left 0.3s ease-in-out;
+}
+
+.leftsidebar.active{
+	left:-330px;
+}
+
+.rightsidebar {
+	position: absolute;
+	height: 100vh;
+	width: 500px;
+	background-color: #fff;
+	z-index: 2;
+	right: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	transition: right 0.3s ease-in-out;
+}
+
+.rightsidebar.active {
+	right: -500px;
+}
+
+.hideleft{
+	left: 0px;
+	position: absolute;
+	z-index: 200;
+	top: 180px;	
+}
+
+.hideright{
+	right: 0px;
+	position: absolute;
+	z-index: 200;
+	top: 180px;	
+}
+
+.hidesidebar {
+	width: 23px;
+	height: 48px;
+	box-shadow: 0 1px 2px rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+	border: 0;
+    cursor: pointer;
+	border-left: 1px solid #dadce0;
+    border-radius: 0 8px 8px 0;
+}
+
+.leftarrow{
+	width: 100%;
+	vertical-align:middle; 
+}
+
+.leftarrow.rotate{
+	transform: rotate(180deg);
+}
+
+.hidesidebar-right {
+	width: 23px;
+	height: 48px;
+	box-shadow: 0 -1px -2px rgba(60,64,67,0.3), 0 -2px -6px -2px rgba(60,64,67,0.15);
+	border: 0;
+    cursor: pointer;
+	border-right: 1px solid #dadce0;
+    border-radius:  8px  0 0 8px ;
+}
+
+.rightarrow{
+	width: 100%;
+	vertical-align:middle; 
+	transform: rotate(180deg);
+}
+
+.right.rotate-{
+	transform: rotate(180deg);
+}
+
+.destitle {
+	font-size: 33px;
+	font-weight: bold;
+	margin: 40px auto 0 auto;
+	text-align: center;
+	vertical-align: baseline;
+	font-weight: 700;
+}
+
+.destitle2 {
+	color: grey;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	font-family: 'TheJamsil2Light';
+	font-size: 20px;
+}
+
+
+
+.traveldate {
+	font-size: 16px;
+	margin-left: 50px;
+}
+
+.titleanddate {
+	display: block;
+}
+
+.days {
+	float: left;
+}
+
+.dayswrap {
+	display: inline-block;
+}
+
+.widen {
+	float: right;
+	font-size: 13px;
+	padding-top: 3px;
+	display: block;
+}
+
+#widenlist:target {
+	display: none;
+}
+
+.edit {
+	float: right;
+	margin-left: 120px;
+	margin-right: 4px;
+	font-weight: normal;
+	font-size: 13px;
+	color: grey;
+	padding-top: 3px;
+}
+
+.daysandedit {
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 280px;
+}
+
+.dayeditwiden {
+	width: 260px;
+	margin: 0 auto;
+	display: inline-flex;
+}
+
+.schlist {
+	width: 280px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.schlist ul li {
+	margin: 0 10px 10px 10px;
+	text-align: left;
+}
+
+.schlist ul li .categories {
+	font-size: 13px;
+	color: grey;
+	margin: 10px;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+.memos ul li {
+	font-size: 13px;
+	color: black;
+	text-align: left;
+	margin: 0px;
+	margin-left: 10px;
+	font-family: 'TheJamsil2Light';
+}
+
+.details {
+	display: block;
+}
+
+.btns {
+	width: 260px;
+	margin: 10px;
+	display: inline-flex;
+	align-items: left;
+}
+
+.listremove {
+	font-size: 13px;
+	color: grey;
+	padding-top: 3px;
+	margin-left: 70px;
+}
+
+.listtitlewrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.searchex {
+	font-size: 20px;
+	color: #7E7DCB;
+}
+
+.rightsearchwrap {
+	margin: 40px 0 40px 90px;
+}
+
+.searchtnbtn {
+	margin-top: 10px;
+}
+
+.searcht {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #7E7DCB;
+	border-radius: 3px;
+}
+
+#searchbtn {
+	background-color: #7E7DCB;
+	border: none;
+	color: white;
+	width: 70px;
+	height: 30px;
+	border-radius: 3px;
+}
+
+.addbtn {
+	background-color: #7E7DCB;
+	border: none;
+	color: white;
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+	margin: 10px;
+	font-family: 'TheJamsil1Thin';
+}
+
+.rectitle {
+	font-size: 20px;
+	color: #7E7DCB;
+	text-align: left;
+	width: 100px;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+.recpicswrap {
+	width: 470px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	display: inline;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.recpicswrap ul li {
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+#memo-modal {
+	display: block;
+	display: none;
+}
+
+.close {
+	float: right;
+	font-size: 15px;
+	padding: 20px 10px 0 0s;
+}
+
+.recpicntwrap {
+	display: inline-block;
+}
+
+.addmemo100 {
+	background-color: #7E7DCB;
+	border: none;
+	color: white;
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+	margin: 10px;
+	font-family: 'TheJamsil1Thin';
+}
+
+.addmoney {
+	background-color: #7E7DCB;
+	border: none;
+	color: white;
+	width: 70px;
+	height: 20px;
+	border-radius: 3px;
+	margin: 10px;
+	font-family: 'TheJamsil1Thin';
+}
+
+.innersort {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: -1;
+	opacity: 0;
+}
+
+.window {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+	/* 임시 지정 */
+	width: 500px;
+	height: 500px;
+}
+
+.show {
+	opacity: 1;
+	z-index: 1500;
+	transition: all .5s;
+}
+
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+	/* 임시 지정 */
+	width: 500px;
+	height: 500px;
+	/* 초기에 약간 아래에 배치 */
+	transform: translate(-50%, -40%);
+}
+
+.show .popup {
+	transform: translate(-50%, -50%);
+	transition: all .5s;
+}
+
+/* 메모 textarea에서 아래 CSS를 적용하면 textarea 요소에 포커스가 잡혔을 때 기본적으로 표시되는 아웃라인이 사라지기 때문에, 마우스 클릭 후에도 커서가 깜박이게 됩니다. */
+textarea:focus {
+	outline: none;
+}
+
+/* textarea 오른쪽 하단에 있는 빗금 두개를 없애고, 메모창의 크기를 임의로 조정하지 못하게 함 */
+textarea {
+	resize: none;
+}
+
+#moneyback {
+	display: none;
+}
+
+#moneyback.show {
+	display: block;
+}
+
+#moneyback .background {
+	/* 기존의 배경 스타일과 동일 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: -1;
+	opacity: 0;
+}
+
+#moneyback .window {
+	/* 기존의 창 스타일과 동일 */
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#moneyback .popup {
+	/* 기존의 팝업 스타일과 동일 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+	width: 500px;
+	height: 500px;
+}
+
+#background {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 0.4;
+	display: none;
+	z-index: 10;
+}
+
+#front {
+	 position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  z-index: 100;
+  cursor: move;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+}
+
+.over_layer {
+	display: flex;
+}
+
+body.modal-open {
+	overflow: hidden;
+}
+
+.x {
+	color: gray;
+	font-size: 20px;
+	float: right;
+	padding: 10px;
+	font-family: TheJamsil2Light;
+	cursor: pointer;
+}

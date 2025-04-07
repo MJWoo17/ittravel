@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+     font-family: 'TheJamsil3Regular';
+ 
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+ }
+
+ ul,li{
+    list-style: none;
+ }
+
+ 
+ /*////////////////////////////////*/
+ 
+ section{
+ 	width: 100%;
+ 	overflow:hidden;
+ 	
+ }
+ 
+ /*////////////////////////////////*/
+ 
+ section #shopping_buy_wrap{
+ 	width: 1136px;
+ 	margin: 0 auto;
+ }
+ 
+ section div#s_order{
+    width: 1136px;
+    margin: 0 auto;
+	
+ }
+
+section div#s_order ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+	margin-bottom: 50px
+	
+}
+
+section div#s_order ul li{
+	margin-right: 20px;
+	margin-left: 20px;
+	
+}
+
+section div#s_order ul li:first-child, div#s_order ul li:nth-child(3) {
+	opacity: 70%;
+}
+
+section #shopping_pay_wrap{
+	margin-bottom: 50px;
+}
+
+section .shopping_addr_info{
+	width: 80%;
+	margin: 0 auto;
+}
+section .shopping_addr_info tr{
+	height: 50px;
+	
+}
+
+section .shopping_addr_info th{
+	width: 20%;
+	background-color: green;
+}
+
+section .shopping_addr_info td, input[type="text"],select{
+	width: 100%;
+	height: 30px;
+}
+
+/* //////////////////////////////////  */
+
+section form h2{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+ 
+/* //////////////////////////////////  */
+
+
+section #order_payway #order_payway_wrap #order_radio_wrap{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+section #order_payway #order_payway_wrap #paymethod2_wrap, #credit_card_wrap{
+	width: 80%;
+	margin: 0 auto;
+}
+
+section #order_addr_wrap, #order_ask_wrap, #order_payway{
+	margin-bottom: 50px;
+}

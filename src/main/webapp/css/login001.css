@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'TheJamsil3Regular';}
+@font-face {
+    font-family: 'TheJamsil3Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+#Loginbtn { background-color: #7E7DCB; color: white; 
+	height: 60px; width:250px;
+	padding: 0px 40px; border-radius: 6px;
+	font-size : 1.3em;
+	
+	}
+.loginBox01 {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100%;
+	width: auto;
+	margin : 100px 0 100px 0;
+}
+.loginBox_line {
+	display: flex;
+    width: 400px;
+    height: 430px;
+    padding-bottom:20px;
+    border: 1px solid #7E7DCB;
+    box-shadow: 10px 5px 10px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    justify-content: center;
+    align-items:center;
+    
+}
+.loginBox02 {
+	width: 250px;
+	
+}
+.logoimg {
+	text-align: center;
+}
+.logoimg a img {
+	width:150px;
+}
+.form-group {
+	margin-top:10px;
+}
+label {
+	margin-bottom : 10px;
+}
+input[type="text"], input[type="password"] {
+	width:100%;
+	padding:10px;
+	margin-top : 10px;
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+h2 {
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+	background : #7E7DCB;
+	padding-top : 10px; padding-bottom : 10px;
+	opacity : 70%;
+	color : white;
+	border-radius:10px;
+}
+input[type=button], input[type=submit] {border: none; cursor:pointer; }
+input {padding: 0 10px;}
+
+
+.form-group01 {
+	text-align:center;
+	margin-top:7px;
+	opacity : 70%;
+	font-size : 1.1em;
+}
+.form-group01 a { 
+	padding : 0 10px 0 10px;
+	text-decoration:underline;
+	font-size: 0.9em;
+}
+.loginBottom {
+	width:auto;
+	margin-top: -70px;
+	text-align:center;
+}
+.etcText {
+	margin-top : 30px;
+	font-size : 0.8em;
+	opacity : 70%;
+	
+}
+.etcText a {
+	text-decoration:none;
+	color : gray;
+}
+.bottom {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottomLogo a {
+	text-decoration:none;
+	color :  #7E7DCB;
+	font-weight : bolder;
+	font-size : 1.3em;
+	margin-top : 5px;
+	font-family: 'TheJamsil5Bold';
+}
+.copy {
+	opacity : 50%;
+	font-size : 0.8em;
+	margin-top : 6px;
+}
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+     font-family: 'TheJamsil3Regular';
+ 
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+ }
+
+ ul,li{
+    list-style: none;
+ }
+/* //////////////////////////////////////////////////////////// */
+
+section{
+	width: 100%;
+}
+
+section .cscenter{
+	width: 1100px;
+	height: 50px;	
+	margin: 0 auto;
+}
+
+#cs_title_wrap{
+	
+	/*border-bottom-style: solid;
+	border-bottom-width: 1px;*/
+	
+	text-align: center;
+	/*margin-top: 50px;*/
+	height: 100px;
+    line-height: 100px;
+   /* background-color: rgba(126, 125, 203, 0.26) ;*/
+   
+}
+
+/*#cs_title_wrap p{
+	margin-bottom: 30px;
+	font-size: 20px;
+}*/
+
+
+
+section .cscenter_menu_wrap{
+	/*display: flex;
+	justify-content: space-between;*/
+	margin-top: 50px;
+	
+}
+
+section .cscenter_menu{
+	width: 32.4%;
+	height: 50px;
+	float: left;
+	/*padding-left: 70px;*/
+	margin-right: 10px;
+	
+}
+
+
+
+section .cscenter_menu .cscenter_menu_txt p a{
+	font-size: 25px;
+	margin: 0 auto;
+}
+
+
+
+section .cscenter_menu_txt{
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+
+
+section .cscenter_menu_con{
+	width: 130px;;
+	height: 420px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+section .cscenter_menu_con ul li a:hover{
+	text-decoration: underline;
+}
+
+
+section div.cscenter_menu_wrap ul li{
+	margin-top: 10px;
+}
+
+
+

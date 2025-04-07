@@ -1,0 +1,105 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'NanumBarunGothic';} 
+ul,ol,li { list-style-type:none;}
+input, select{ height: 30px; text-align: left;}
+
+
+/* ==============body============== */
+
+#topwrap {margin:20px auto;}
+
+/*투어원형이미지*/
+.slider { width: 1380px; margin: 50px auto;}
+
+.slider .slick-list {margin:0 -20px;}
+.slick-slide {margin: 0 20px;}
+.imgwrap {position: relative; overflow: hidden; width: 300px;height: 300px; border-radius: 50%; box-shadow: 0px 5px 20px 0px rgb(105 105 105 / 20%);}
+.imgwrap img {display: block; width: 100%; height: auto;}
+.imgwrap:hover img{scale: 1.25; transition: all .5s;}
+.float-text {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 25px; font-weight: bold; color: #FFFFFF; text-shadow: #000 1px 0 10px;}
+
+/*투어카테고리*/
+#cat_wrap	{ height: 100px; width: 1100px; margin: 30px auto; }
+#cat_wrap02 { display: flex; flex-direction: row; justify-content: flex-start; align-items: center; width:100%; margin:0 auto;}
+.category	 { width: 250px;height: 100px; padding-top: 40px; border: 2px solid lightgray; border-radius: 4px;}
+#cat_wrap01 { width: 950px;height:100px; margin: 0 10px;}
+.group {text-align: left; padding-left: 15px;}
+.select-group {width: 100%;
+    display: flex;
+    margin: 5px 10px 10px 0;}
+.group li a { text-align: left; text-decoration: none; color: gray; }
+.drop_02 { width: 174px;height: 40px;border: 1px solid #666; border-radius: 4px; margin-right: 10px;}
+.link-group { display: block; width: 700px; padding: 10px; border: 2px none ; border-radius: 4px; background-color: #EAEAEA;}
+.link-group li {display: inline-block; }
+.link-group li a { color:#666; margin: 0 5px 0 5px;}
+.link-group li:after {content: '|';padding: 0 10px;color: #7E7DCB;}
+.link-group li:last-child:after {display: none;}
+
+
+/*투어상품리스트*/
+#bottomwrap { width: 1100px;margin: 0 auto;}
+
+#drop_1	{ width: 1100px;
+    height: 40px;
+    text-align: left;}
+.drop_01{ width: 100px;
+    height: 40px;
+    break-after: avoid;
+    color: #7E7DCB;
+    border-style: none;
+    border-radius: 10px;
+    border: 1px solid #7E7DCB;
+    margin-right: 5px;}
+option { text-align: center; }
+#wrap001 { height:1100px; margin:0 auto; }
+#prod_con	{ width: 1100px; margin: 0 auto;}
+#prod_con ul { display: flex; flex-direction: row; justify-content: space-between; align-items: center; flex-wrap: wrap; width: 1130px; margin: 0 auto;}
+#prod_con ul li { display: flex;     margin-top: 15px; flex-direction: row; justify-content: flex-start; align-items: flex-start; width: 550px;}
+div.prod_img img{ display: block; width: 230px;height: 250px; border-radius: 10px; }
+div.prod_txt { 
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    padding:15px;}
+ 
+.txt00 { font-size: 1.1em;
+    font-weight: bold;
+    color: #7E7DCB;
+    width: 100%;}
+.txt01 { 
+    font-size: 1.3em;
+    font-weight: bold;
+    width:100%;
+    align-items: center;
+    display: grid;}
+.txt02 { opacity: 70%; width:100%;display: flex;
+    align-items: center;}
+.cal_wrap{ display:flex; text-align:left; align-items:center;}
+.img03 { float:left; height:10%; }
+.txt04 { opacity:70%; float: left; width:100%;}
+.txt05 { font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+    display: grid;
+    align-items: center;}
+.average { display:flex; width:100%;align-items: center;}
+.average a img { height:25px; margin-left: -7px;
+    margin-top: 3px;}
+.count { color:#7E7DCB; }
+.count:hover { text-decoration: underline;}
+
+
+#pagewrap { width: 320px;height: 100px;margin: 50px auto;}
+#pagewrap ul { display:flex; flex-direction:row; justify-content:space-between;
+				align-items:center; flex-wrap:wrap; width:320px; }
+#pagewrap ul li { display:flex; flex-direction:row; justify-content: center; 
+		align-items:center; }
+.page_icon a{ width: 30px; height: 30px; margin: 0 auto; float: left;text-align: center;
+			 font-size: 1em; color: #7E7DCB; padding: 5px;}
+.page_arr a{ width:30px; height:30px; margin:0 auto; float: left; text-align:center;
+			font-size:0.8em; border: 0.7px solid #7E7DCB; color: #7E7DCB; padding: 5px;
+		}
+div ul li.page_icon a:hover{ text-decoration:underline; }

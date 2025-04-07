@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'TheJamsil3Regular';} 
+@font-face {
+    font-family: 'TheJamsil3Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+ul,ol,li { list-style-type:none;}
+a {text-decoration: none;}
+input[type="button"], input[type="submit"] {border: none; cursor: pointer;}
+input {padding: 0 10px;}
+
+td { margin-left: 30px; height: 50px; text-align: left;}
+input, select{ height: 30px; text-align: left;}
+
+h2 { text-align:center; margin: 50px;}
+form { border-width: 5px; border-color: purple; min-width: 500px;}
+
+label { padding-top: -20px; }
+
+.line01 { width: 700px; height: 2px; margin: 30px auto; }
+#joinwrap {margin: 0 auto;	border: 5px; border-color: purple; }
+.mem_sex { text-align:left; }
+tr td input[type=button] { width:115px; text-align:center; }
+.but { background-color: #7E7DCB; color: white; 
+	height: 60px; 
+	padding: 0px 40px; border-radius: 5px; margin-top: 30px; margin-bottom: 100px; font-size:1.2em; }
+
+
+/* ==============footer============== */
+#footer { height: 250px; margin: 0 auto; display: block;}
+.footerwrap { display:flex; margin:0 auto; align-items: center; justify-content:center; }
+footer h1 { width:300px;margin-left:120px; margin-top: 30px;float:left; }
+ul.bottom li { display:inline; float:left;margin-left: 10px; margin-top: 50px;}
+.informs { align-items: top; }
+#inform01 { height: 100px; margin: 0 auto; }
+#inform02 { height: 100px; margin: 0 auto; width: 990px; float: left;}
+p { float:left; margin-top: 5px;}
+
+footer ul li a{ color:#fff; font-weight: bold; text-decoration: none;}
+p.blank { margin-top: 50px; }
+
+.agree { width:400px; height: 200px; border:1px solid #7E7DCB; overflow-x: scroll; 
+	font-weight: normal; color: #000; text-align: left; opacity: 70%;}
+
+	
+	
+/* ================== 인증번호 관련 구간 ==================  */
+	
+	
+ .idenwrap{
+	width: 500px;
+	margin : 0 auto;
+	display : none;
+
+}
+
+
+ .idenwrap .idenbox{
+
+	background:transparent;
+	border-radius : 5px;
+		float: left;
+}
+
+
+ .againwrap{
+	display: inline-block;
+	margin-left : 40px;
+}
+
+ .idenwrap .againwrap .idennumber{
+
+	border : 0;
+	text-align: center;
+	border-radius: 5px;
+	float : right;
+
+}
+
+
+ .idenwrap #numagain{
+
+	width : 100px;
+	height : 30px;
+	float: right;
+	border : none;
+	margin-right : 20px;
+
+	
+}
+
+#timer{
+	text-aline : cetner;
+	color : #6f6f6f;
+	margin-top :20px;
+	float: left;
+}
+
+#idnumconfirm:disabled{
+	background-color: #6f6f6f;
+}
+
+#numbox:disabled{
+	border: 2px solid #6f6f6f;
+}
+
+#phone1:disabled{
+	border: 2px solid #6f6f6f;
+}
+
+#phone2:disabled{
+	border: 2px solid #6f6f6f;
+}
+
+#phone3:disabled{
+	border: 2px solid #6f6f6f;
+}
+
+#numiden:disabled{
+background-color: #6f6f6f;	
+}
+
+button{background-color : #7e7dcb; border-radius: 5px; color : white; width : 100px; height : 30px; float: right; border : none; margin-top : 10px;
+}

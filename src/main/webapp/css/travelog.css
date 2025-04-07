@@ -1,0 +1,191 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: 'TheJamsil3Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil1Thin';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil1Thin.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil2Light';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+		format('woff2');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'TheJamsil3Regular';
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul, li {
+	list-style: none;
+}
+
+section {
+	height: 100%;
+}
+
+input[type="text"] {
+	margin: 25px 20px 10px 50px;
+	width: 850px;
+	height: 30px;
+}
+
+button[type="button"] {
+	width: 100px;
+	height: 30px;
+}
+
+.mainwrap {
+	width: 1100px;
+	border: 1px black solid;
+	margin: 50px auto;
+}
+
+.maintitle {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.contentwrap {
+	border: 1px black solid;
+	margin: 40px auto;
+}
+
+.logtitle {
+	font-size: 20px;
+}
+
+.travelwhere {
+	font-size: 15px;
+	color: grey;
+	margin: 10px;
+}
+
+.travelwhen {
+	font-size: 15px;
+	margin : 5px;
+}
+
+.howmanydays {
+	font-size: 15px;
+	margin : 5px;
+}
+
+.thumnailwrap {
+	display: inline;
+}
+
+.thumnail {
+	width: 600px;
+	height: 600px;
+	border: 1px black solid;
+	margin: 20px auto ;
+	overflow : hidden;
+
+}
+
+.logcontent {
+	margin-left: 40px;
+}
+
+.sharetitle {
+	font-size: 20px;
+	margin: 70px auto 50px 40px;
+}
+
+.daywrap {
+
+	margin: 20px 50px;
+}
+
+.commentwrap {
+	width: 1000px;
+	box-shadow: 10px 5px 10px rgb(0 0 0/ 5%);
+	margin: 0 auto;
+}
+
+.comment {
+	margin: 10px 0 10px 0;
+}
+
+.comment div{
+	display: inline-block;
+}
+
+.sharewhere {
+	margin : 20px 70px;
+}
+
+.sharewhere ul li{
+	
+	margin-top: 10px;
+}
+
+.hitsandlikes{
+	margin-bottom : 10px;
+}
+
+.hitsandlikes div{
+display : inline-block;
+
+}
+
+.commentorpic img{
+	margin-top:10px;
+	border-radius : 50%;
+}
+
+.commentornick{
+	margin : 0 20px 0 10px;
+	}
+
+.arrange{
+	float: left;
+}
+
+.sorticon {
+	font-family: 'Material Icons';
+	font-weight: 100;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}

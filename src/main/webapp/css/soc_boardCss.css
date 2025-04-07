@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'TheJamsil3Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheJamsil2Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheJamsil4Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil4Medium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+*{ margin: 0;padding: 0;font-family: 'TheJamsil3Regular';}
+
+ul, li{
+	list-style : none;
+}
+ /* X 표시의 색상과 위치를 변경하는 CSS 스타일 */
+.mfp-close-btn-in .mfp-close {
+	color: #ffffff !important; /* 흰색으로 변경 */
+	top: 0;
+    right: 165px;
+	position: absolute;
+	background-color:black;
+}
+.postWrap {
+	align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    margin-bottom: 50px;
+}
+.titleWrap {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:auto;
+	height: 80px;
+	border-bottom: 1px solid #7E7DCB;
+    box-shadow: 10px 5px 10px rgb(0 0 0 / 5%);
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-bottom: 15px;
+}
+.postLogo {
+	padding-bottom: 15px;
+    width: 30%;
+    text-align: right;
+}
+.postLogo a img {
+	padding-top:15px;
+}
+.searchBox {
+	width: 40%;
+    /* margin: 10px 200px 0 30px; */
+    text-align: center;
+}
+.search-input {
+	width: 380px; 
+	height: 36px;
+	padding:10px;
+	margin-top : 10px;	
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+#popularBtn {
+	background-color: #7E7DCB;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-style:none;
+    border-radius: 5px;
+    border: 1px solid #7E7DCB;
+    cursor:pointer;
+    margin-left : 10px;
+    font-family: 'TheJamsil4Medium';
+}
+#latestBtn {
+	background-color: white;
+    color: #7E7DCB;
+    width: 70px;
+    height: 35px;
+    border-style:none;
+    border-radius: 5px;
+    border: 1px solid #7E7DCB;
+    cursor:pointer;
+    margin-left : 5px;
+    font-family: 'TheJamsil4Medium';
+}
+.postIcon {
+	width: 30%;
+	padding-top: 15px;
+    display:flex;
+}
+.postIcon a img {
+	margin-left: 15px;
+    width: 35px;
+    opacity: 70%;
+}
+.imglistWrap {
+	display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.filter {
+	display:flex;
+	width : 100%;
+	margin-left : 5px;
+	margin-bottom : 7px;
+}
+input[type=button] {
+	background-color: #7E7DCB;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #7E7DCB;
+    cursor:pointer;
+}
+.imglist {
+	width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.imglist img { 
+	width:300px; height:300px; margin : 5px 12.5px 5px 12.5px; cursor : pointer;	
+	}
+a { color:#666; text-decoration:none; cursor:pointer;}
+.likeBox {
+	display:flex;
+	width:300px; height: 20px; margin:5px 12.5px 5px 12.5px;
+	font-size : 0.8em;
+}
+.tagbox {
+	width:300px; height:70px; margin:5px 12.5px 5px 12.5px;
+	font-size : 0.9em;
+	opacity : 70%;
+}
+
+
+#background{
+	
+	     	position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: black;
+            opacity: 0.4;
+            display: none;
+            z-index:10;
+}
+
+#front {
+            /* 요소의 좌측상단 꼭지점이 화면 중앙에 위치하게 된다. */
+            position: fixed;
+            top: 200px;
+            left: 250px;
+            /* 요소의 크기/2 만큼 왼쪽,상단 방향으로 이동시켜 가운데 배치한다 */
+            width: 1460px;
+            height: 610px;
+            background-color: white;
+            z-index : 100;
+        }
+        
+.over_layer{
+	
+	display: flex;
+}        
+        
+body.modal-open {
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: 'TheJamsil3Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheJamsil2Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'TheJamsil3Regular';} 
+ul,ol,li { list-style-type:none; width:100%; display:block; }
+ul { height : 100%;}
+a { color:#666; text-decoration:none; cursor:pointer;}
+span { font-size : 0.8em; margin-left: 10px; margin-bottom:2px;}
+
+.Wrap {
+	background-color : white;
+	display:flex; width:1480px; height: 650px;
+	margin : 0 auto;
+	padding : 20px 10px 20px 10px;
+}
+.sch_wrap {
+	width:30%; height:100%; 
+}
+.sch_01 {
+   width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.sch_01_L {
+   display: grid;
+    padding-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(126, 125, 203);
+    align-items: center;
+    border-radius: 50%;
+}
+.country {
+   width: 100%;
+    margin-top:10px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+.city {
+   width: 100%;
+    margin-top: -25px;
+}
+.sch_01_R {
+	width: 65%;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.day_01 {
+	width : 100%;
+	border-bottom : 1px solid #7E7DCB;
+	padding: 7px;
+}
+
+input[type=button] {
+	background-color: #7E7DCB;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    cursor:pointer;
+}
+
+.sch_02 {
+	width : 100%;
+	height:78%;
+	padding: 15px;
+	overflow:auto;
+}
+.day_sch_02{
+	width : 100%;
+}
+.sch_02 h3 {
+    color: #7E7DCB;
+    margin: 7px;
+    padding: 10px 0 5px 10px;
+    border-bottom: 1px solid #CECEF4;
+}
+.tcp {
+	display : flex;
+	padding-top : 5px;
+}
+.time {
+	width : 30%;
+	text-align : center;
+}
+.content {
+	width : 40%;
+	text-align : center;
+}
+.place {
+	width : 40%;
+	text-align : center;
+}
+.img_wrap {
+	width:40%; height:100%; margin-left : 10px; margin-right:10px;
+}
+.img_wrap img {
+	width : 100%;
+	height : 100%;
+}
+.img_01 {
+	height:100%;
+	}
+.con_wrap {
+	width:30%; height:100%;
+}
+.con_01 {
+	height: 10%;
+    border-bottom: 1px solid #7E7DCB;
+    align-items: center;
+    padding: 15px;
+}
+.con_01 a {
+	padding-left:10px;
+}
+.con_01 img {
+	border-radius : 50%;
+	width : 10%;
+}
+.con_02 {
+	height:50%;
+	padding:15px;
+	border-bottom: 1px solid #7E7DCB;
+	overflow:auto;
+}
+.con_03 {
+	height:116px;
+	padding:15px;
+	overflow-y:scroll;
+}
+.rep01 {
+	display:flex;
+	align-items:center;
+	margin-bottom:5px;
+}
+.rep_01 {
+	width:20%;
+	display:flex;
+	align-items:center;
+}
+.rep_01 a {
+	font-size : 0.8em;
+	margin-left : 3px;
+}
+.rep_02 {
+	width : 80%;
+	font-size : 0.8em;
+}
+.con_03 img {
+	border-radius : 50%;
+	width : 20%;
+}
+.con_04 {
+	height:15%;
+	padding : 5px;
+}
+.rep_icon img{
+	margin-top:2px;
+	margin-left: 5px;
+    width: 30px;
+    opacity: 70%;
+}
+.rep_input {
+	width: 82%;
+	padding:10px;	
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+
+.con_1::-webkit-scrollbar-button {
+  display: none;
+}
+
+.likeandcomment{
+	font-size: 12.8px;
+}

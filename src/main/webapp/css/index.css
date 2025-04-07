@@ -1,0 +1,327 @@
+@charset "EUC-KR";
+
+section{
+            display : block;
+         	margin-bottom : 150px;
+          }
+
+/*           .mainflightdiv1{
+            display : block;
+            height :500px;
+          } */
+
+          .search-bar{
+            margin : 0 auto;
+            z-index: 1;
+            display : block;
+          }
+
+          .search-bar input[type="text"]{
+            width: 800px;
+            height: 70px;
+            transform: translateY(-50%);
+            border-radius: 5px;
+            font-size : 45px;
+            margin : 0 auto;
+          }
+
+          .title{
+            font-size: 16px;
+            text-align: left;
+            padding-top : 10px;
+            color : #7E7DCB;
+          }
+          
+          .mainbtns{
+            width: 90px;
+            height: 30px;         
+            background-color: #7E7DCB;
+            border : none;
+            color : white;
+            border-radius: 3px;
+    
+
+          }
+          
+               .slider {
+            width: 1910px;
+            list-style:none;
+           
+          }
+          .slider:after {
+            content:'';
+            display:block;
+            clear:both;
+          }
+          .slider li {
+            position:absolute; 
+            left:0;
+            width:100%;
+            height:500px;
+            opacity:0;
+            
+          }
+          .slider li div {
+            width:100%;
+            height:500px;
+            background-size:cover;
+            position:relative;
+            margin: 0 auto;
+          }
+          .slider li dl {
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            left:20px;
+          }
+          .slider li .right {
+            left:auto;
+            right:20px;
+            text-align:right;
+          }
+          .slider li dt {
+            color:#fff;
+            font-size:3rem;
+            text-shadow:1px 1px 10px #444;
+          }
+          .slider li dd {
+            color:#fff;
+            text-shadow:1px 1px 10px #444;
+          }
+          .reclistwrap{
+            width : 1100px;
+            margin : 490px auto;
+            display : block;
+			margin-bottom: 50px;
+          }
+
+
+          .socialfeedwrap{
+
+            display : block;
+            margin : 0 auto;
+            padding : 50px 0 50px 0;
+          }
+
+          .socialfeedsort{
+
+            display: inline;
+            padding : 10px;
+          }
+
+          .socialfeedsort ul li{
+            float : left;
+            margin-left : 20px;
+          }
+
+          .socialfeedsort ul li:last-child{
+            float : right;
+
+          }
+
+
+
+
+		.socialfeedpicswrap ul li:first-child{
+		margin: 0;
+		}
+		
+		          .socialfeedpicswrap ul li{
+            display : inline;
+            margin-left : 20px;
+
+          }
+
+          .socialfeedpicswrap {
+            display : block;
+            float : left;
+            padding : 10px;
+            margin-top : 10px;
+          }
+
+
+
+          .rectourwrap{
+
+            display : block;
+            margin : 0 auto;
+            padding : 50px 0 50px 0;
+
+          }
+
+          .rectourwrap ul li{
+
+            display : inline;
+
+          }
+
+          .rectourtitleandsort{
+
+            display : inline-block;
+            width : 1123px;
+
+            
+          }
+
+          .rectoursort{
+            padding-top:13px;
+            margin-right : 100px;
+          }
+
+
+          .mdrecwrap{
+            width: 1123px;
+           margin : 0 auto;
+            padding : 50px 0 50px 0;
+          }
+
+          .mdrecsort{
+            display : inline;
+            padding : 10px;
+          }
+          
+          .mdrecsort ul li{
+            float : left;
+            margin-left : 20px;
+          }
+
+          .mdrecsort ul li:last-child{
+            float:right;
+          }
+
+          .picline{
+            display: block;
+            margin-top : 20px;
+            
+          }
+
+          .picline ul li{
+            display: inline;
+          }
+
+          .mdrecpicswrap ul li:first-child{
+            display : inline;
+            margin-left : 30px;
+
+          }
+
+
+          .mdrecpicswrap ul li{
+            display : inline;
+            margin-left : 30px;
+
+          }
+
+          .mdrecpicswrap{
+            display : block;
+          }
+
+          .seemore{
+            margin-right: 150px;
+            padding-top : 5px;
+            font-size : 14px;
+          }
+
+          .quickmenuwrap{
+
+            display : block;
+            left : 0;
+            z-index: 2;
+            width : 200px;
+          }
+
+          
+          .quick{
+            width : 200px;
+            height : 100%;
+            background-color : blue;
+            padding : 10px;
+            position : fixed;
+
+
+          } 
+
+
+
+    .sort{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right :56px;
+        font-size : 14px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+
+
+    .sort:hover{
+        cursor : pointer;
+    }
+
+    .sorticon{
+
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    }
+
+
+    .sort-dropwrap{
+
+        min-width : 160px;
+        position : absolute;
+        box-sizing : border-box;
+        background-color: white;
+        color : #666;
+        box-shadow: 0 5px 12px rgb(0 0 0 / 15%);
+        z-index: 1200;
+        padding : 20px;
+        margin-top : 16px;
+        display : none;
+    }
+
+
+
+    .sort-dropwrap ul li:first-child{
+
+        display : flex;
+        font-size: 14px;
+        font-weight : normal;
+        letter-spacing: 1px;
+
+    }
+
+
+    .sort-dropwrap ul li{
+
+        display : flex;
+        font-size: 14px;
+        font-weight : normal;
+        letter-spacing: 1px;
+        margin-top : 12px;
+    }
+
+    @font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+
+   @font-face {
+    font-family: 'TheJamsil3Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

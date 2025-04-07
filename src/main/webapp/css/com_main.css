@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}	
+
+body{
+	font-family: 'TheJamsil5Bold';
+}
+
+.board_wrap {
+      max-width: 1100px;
+        min-width: 320px;
+        padding: 0 30px;
+        margin : 0 auto;
+        box-sizing: border-box;
+/*         border : 1px solid black; */
+        text-align: center;
+}
+
+.divwrap1{
+	max-width: 900px;
+	 margin : 0px auto;
+/* 	 border : 1px solid black; */
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	}
+	
+	
+.divwrap2{
+	width: 450px;
+	 margin : 0px auto;
+/* 	 border : 1px solid rgba(224, 224, 224, 0.69);  */
+		height: 300px;
+	text-align: center;
+	font-size: 80px;
+	line-height: 300px;
+	background-color: rgba(224, 224, 224, 0.69);
+	}
+
+.divwrap2:hover{
+	transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+
+.divwrap3{
+display: flex;
+margin-right: auto;
+	}
+	
+.divwrap4{
+	width: 450px;
+		height: 300px;
+	 border : 1px solid rgba(188, 218, 250, 0.41);
+text-align: center;
+font-size: 80px;
+line-height: 285px;
+background-color: rgba(188, 218, 250, 0.41);
+}
+
+.divwrap4:hover{
+	transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+
+.divwrap5{
+	width: 450px;
+		height: 300px;
+	 border : 1px solid rgba(124, 218, 180, 0.59);
+text-align: center;
+font-size: 80px;
+line-height: 285px;
+background-color: rgba(124, 218, 180, 0.59);
+}
+
+.divwrap5:hover{
+	transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}
+.divwrap6{
+	width: 450px;
+	 margin : 0px auto;
+/* 	 border : 1px solid rgba(224, 224, 224, 0.69);  */
+		height: 300px;
+	text-align: center;
+	font-size: 80px;
+	line-height: 300px;
+	background-color: rgba(240, 203, 255, 0.41);
+	}
+
+.divwrap6:hover{
+	transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+}

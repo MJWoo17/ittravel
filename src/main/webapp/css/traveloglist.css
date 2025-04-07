@@ -1,0 +1,104 @@
+
+
+@font-face {
+	font-family: 'TheJamsil3Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil3Regular.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil1Thin';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil1Thin.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheJamsil2Light';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+		format('woff2');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'TheJamsil3Regular';
+}
+
+button {background-color : #7e7dcb; border-radius: 5px; color : white; width : 100px; height : 30px; border : none; margin : 10px 20px 10px 30px;}
+
+
+.sorticon {
+	font-family: 'Material Icons';
+	font-weight: 100;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
+.mainwrap {
+	width: 1100px;
+	border: 1px black solid;
+	margin: 50px auto;
+}
+
+.maintitle {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.contentwrap {
+	border: 1px black solid;
+	margin: 40px auto;
+}
+
+.thumnail{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.thumnailarrange div{
+	display: inline-block;
+}
+.hitsandlikes{
+	margin-bottom : 10px;
+}
+
+.hitsandlikes div{
+display : inline-block;
+
+}
+
+.listthumnail{
+	margin: 40px;	
+}
+
+.titleandcontent{
+	vertical-align : top;
+}

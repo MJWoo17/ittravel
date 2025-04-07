@@ -1,0 +1,259 @@
+.divwrap1{
+	margin : 0 auto;
+	max-width : 1100px;
+/*  	border : 1px solid black;  */
+	height: auto;
+	margin-bottom: 120px;
+}
+
+.divwrap2{
+	border : 1px solid  rgba(224, 237, 251, 0.64);
+	width: 100%;
+	height: 80px;
+	margin : 0 auto; 
+	background-color: rgba(224, 237, 251, 0.64);
+	position: sticky; /* 스크롤 내릴때 배너 상단 고정 */
+    top: 0;
+    left: 0;	
+    display: flex;
+}
+
+.divwrap2_1{
+	border-right: 0.2px solid gray;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.divwrap2_1_1{
+/* 	border : 1px solid black; */
+	width: 40%;	
+	height: 100%;
+	font-size: 22pt;
+	text-align: center;
+	line-height: 78px;
+}
+.divwrap2_1_2{
+/* 	border : 1px solid black; */
+	width: 10%;	
+	height: 100%;
+		font-size: 22pt;
+	text-align: center;
+	line-height: 78px;
+}
+
+.divwrap2_2{
+	border-right: 0.2px solid gray;
+	width: 50%;
+	height: 100%;
+		display: flex;
+	justify-content: center;
+}
+.divwrap2_3{
+/* 	border : 1px solid black; */
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+		font-size: 22pt;
+	text-align: center;
+	line-height: 78px;
+}
+
+.divwrap3{
+	border: 1px solid #cacdd5;
+	margin-top : 45px;
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+
+.divwrap4{
+/* 	border : 1px solid black; */
+	width: 80%;
+	height: 100%;
+	background-color: #f8f8f8;
+}
+.divwrap4all{
+/* 	border : 1px solid black; */
+	width:100%;
+	height: 60%;
+	display :flex;
+	justify-content: center;
+}
+.divwrap4_1{
+	margin-top : 11px;
+/* 	border : 1px solid black; */
+	width: 30%;
+	height: 80%;
+	text-align: center;
+	font-size: 28pt;
+	line-height: 170px;
+}
+.divwrap4_2{
+	margin-top : 40px;
+/* 	border : 1px solid black; */
+	width: 40%;
+	height: 80%;
+}
+.divtimewrap2{
+	font-size: 15pt;
+	color :#00256c;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+.divtimewrap2_1{
+	display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+}
+.divwrap4_2 img{
+	margin : 10px 0 0 50px;
+	width : 250px;
+}
+.divwrap4_3{
+	margin-top : 11px;
+/* 	border : 1px solid black; */
+	width: 30%;
+	height: 80%;
+	text-align : center;
+	font-size: 28pt;
+	line-height: 170px;
+}
+.divwrap4all2{
+/* 	border : 1px solid black; */
+	width:100%;
+	height: 40%;
+	display :flex;
+	justify-content: center;
+}
+.divwrap4_4{
+/* 	border : 1px solid black; */
+	width: 30%;
+	height: 80%;
+	text-align: center;
+	font-size: 14pt;
+    line-height: 65px;
+    color: #575e6f;
+    margin-top: -10px;
+}
+
+.divwrap5{
+	border-top: 3px solid #89b3fe;
+    border-left: 1px solid #cacdd5;
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.divwrap5:hover, .divwrap5:focus, .divwrap5:active{
+	transition-duration: 0.3s;
+    transform: scale(1.04, 1.04); 
+    transition-duration: 0.5s;
+    background-color: #00256c;
+    color : white;
+}
+.divwrap5_1{
+/* 	border: 1px solid black; */
+	width: 80%;
+	height:auto;
+	text-align: right;
+	padding : 80px 0 0 0;
+	font-size: 20pt;
+	
+}
+.divwrap5_2{
+/* 	border: 1px solid black; */
+	width: 20%;
+	height:auto;
+	text-align: center;
+	padding : 80px 0 0 0;
+	font-size: 20pt;
+}
+
+/* 하단 고정 배너? */
+.divbottom1{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:60px;
+    background-color:white;
+    text-align: center;
+    box-shadow: -3px -3px 8px 1px rgb(105 105 105 / 10%);
+}
+.divbottom2{
+/* 	border:2px solid rgb(105 105 105 / 10%); */
+	width: 1100px;
+	background-color: white;
+	margin: 0 auto;
+	height:100%;
+	display: flex;
+}
+.divbottom2_1{
+	width: 40%;
+	height: 100%;
+	background-color:white;
+	display: inline-block;
+    padding-left: 10px;
+}
+
+.divbottom2_1_1{
+	padding-top:6px;
+	width: 100%;
+	height: 90%;
+	background-color: white;
+	font-size: 15pt;
+	display: flex; /* 추가 */
+	align-items: center; /* 추가 */
+}
+.divbottom2_2{
+	width: 40%;
+	height: 100%;
+	background-color:white;
+	margin-left: auto;
+	display:flex;
+	justify-content: flex-end; 
+}
+.divbottom2_2_1{
+	margin-left:164px;
+	width: 70%;
+	height: 90%;
+	background-color: white;
+	font-size: 15pt;
+	align-items: center;
+	padding-top: 20px;
+	text-align: right; /* 추가 */
+	color : #00256c;
+}
+.divbottom2_2_2{
+	margin-left:auto;
+	width: 10%;
+	height: 90%;
+	background-color: white;
+	color : #00256c;
+	font-size: 15pt;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.divbottom2_3{
+	width: 20%;
+	height: 100%;
+	margin-left: auto;	
+}
+.divbottom2_3_1{
+	width: 100%;
+	height: 90%;
+	background-color: #00256c;
+	color :white;
+	font-size: 15pt;
+	/* display: flex; 추가 */
+	align-items: center;
+	padding-top: 20px;
+	cursor: pointer;
+}
